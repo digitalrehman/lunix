@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Menu from "../Menu"
 
-export default function Header2({ scroll, isMobileMenu, handleMobileMenu, handleSidebar}) {
+export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSidebar, handleSidebar, isSearch, handleSearch }) {
     return (
         <>
 
