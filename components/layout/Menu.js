@@ -22,22 +22,6 @@ export default function Menu() {
 
     return (
         <>
-            {/* <ul className="menu">
-                <li className={`dropdown ${checkParentActive(["/home-02", "/home-03"])}`}>
-                    <Link href="/#">Home</Link>
-                    <ul className="sub-menu">
-                        <li className={`item ${checkCurrentMenuItem("/")}`}>
-                            <Link href="//">Home 1</Link>
-                        </li>
-                        <li className={`item ${checkCurrentMenuItem("/home-02")}`}>
-                            <Link href="//home-02">Home 2</Link>
-                        </li>
-                    </ul>
-                </li>
-                <li className={`item ${pathname === "/about" ? "active" : ""}`}>
-                    <Link href="//about">about</Link>
-                </li>
-            </ul> */}
             <ul className="custom-nav d-lg-flex d-grid gap-xxl-10 gap-xl-8 gap-lg-5 gap-md-2 gap-2 pt-lg-0 pt-5">
                 <li className="menu-item position-relative">
                     <Link href="/" className="fw_500 white-clr">Home</Link>

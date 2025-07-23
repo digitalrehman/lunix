@@ -4,7 +4,6 @@ import AOS from 'aos'
 import { useEffect, useState } from "react"
 import BackToTop from '../elements/BackToTop'
 import Breadcrumb from './Breadcrumb'
-import Search from "./Search"
 import Sidebar from "./Sidebar"
 import Footer1 from './footer/Footer1'
 import Footer2 from './footer/Footer2'
@@ -24,11 +23,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
     const handleSidebar = () => {
         setSidebar(!isSidebar)
     }
-    const [isSearch, setSearch] = useState(false)
-    const handleSearch = () => {
-        setSearch(!isSearch)
-    }
-
+ 
     useEffect(() => {
         AOS.init()
 
@@ -49,11 +44,11 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
     }, [])
     return (
         <><div id="top" />
-            {!headerStyle && <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSidebar={isSidebar} handleSidebar={handleSidebar} isSearch={isSearch} handleSearch={handleSearch} />}
-            {headerStyle == 1 ? <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSidebar={isSidebar} handleSidebar={handleSidebar} isSearch={isSearch} handleSearch={handleSearch} /> : null}
-            {headerStyle == 2 ? <Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSidebar={isSidebar} handleSidebar={handleSidebar} isSearch={isSearch} handleSearch={handleSearch} /> : null}
+            {!headerStyle && <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSidebar={isSidebar} handleSidebar={handleSidebar}  />}
+            {headerStyle == 1 ? <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSidebar={isSidebar} handleSidebar={handleSidebar}  /> : null}
+            {headerStyle == 2 ? <Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSidebar={isSidebar} handleSidebar={handleSidebar}  /> : null}
 
-            <Search isSearch={isSearch} handleSearch={handleSearch} />
+          
 
             <main className="main">
                 {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
