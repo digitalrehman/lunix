@@ -184,7 +184,7 @@ export default function Footer4() {
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
-                                                About Xstar
+                                                About Lunex Digital
                                             </Link>
                                         </li>
                                         <li>
@@ -305,7 +305,7 @@ export default function Footer4() {
                     <div className="container">
                         <div className="text-sm-start text-center d-sm-flex gap-sm-0 gap-2 d-grid align-items-center justify-content-sm-between justify-content-center">
                             <p className="pra-clr">
-                                © All Copyright {new Date().getFullYear()} by <Link href="/" className="theme-clr">Xstar</Link>
+                                © All Copyright {new Date().getFullYear()} by <Link href="/" className="theme-clr">Lunex Digital</Link>
                             </p>
                             <Link href="/#" className="pra-clr">
                                 Terms &amp; Conditions Privacy Policy

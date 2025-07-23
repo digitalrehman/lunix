@@ -87,7 +87,7 @@ export default function Footer1() {
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
-                                                About Xstar
+                                                About Lunex Digital
                                             </Link>
                                         </li>
                                         <li>
@@ -211,7 +211,7 @@ export default function Footer1() {
                             <i className="fas fa-arrow-up" />
                         </Link>
                         <p className="pra-clr">
-                            © All Copyright {new Date().getFullYear()} by <Link href="/" className="theme-clr">Xstar</Link>
+                            © All Copyright {new Date().getFullYear()} by <Link href="/" className="theme-clr">Lunex Digital</Link>
                         </p>
                     </div>
                 </div>
