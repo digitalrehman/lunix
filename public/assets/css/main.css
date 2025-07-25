@@ -1073,6 +1073,9 @@ footer {
 .subside-barmenu .sub-contact-wrapper .side-logo {
     margin-bottom: 20px;
 }
+.subside-barmenu .sub-contact-wrapper .side-logo .side-logo-image{
+    width: 200px;
+}
 
 .subside-barmenu .sub-contact-wrapper p {
     font-size: 14px;

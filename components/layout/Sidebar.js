@@ -9,12 +9,11 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                 </div>
                 <div className="sub-contact-wrapper d-grid">
                     <Link href="/" className="side-logo">
-                        <img src="/assets/img/logo/logo.png" alt="img" />
+                        <img src="/assets/img/logo/logo.png" className='side-logo-image' alt="img" />
                     </Link>
                     <p>
                         Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam quaerats voluptatem. Ut
-                        enim
-                        ad minima veniam, exercitationem laboriosam, nisi ut aliquid ex ea autem velit esse quam nihil
+                        enim ad minima veniam, exercitationem laboriosam, nisi ut aliquid ex ea autem velit esse quam nihil
                     </p>
                     <div className="sub-contact-left d-grid">
                         <div className="sub__contac-item">
